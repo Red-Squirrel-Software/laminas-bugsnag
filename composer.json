@@ -8,11 +8,11 @@
         "Bugsnag"
     ],
     "require": {
-        "php": "^7.4 || ~8.0.0 || ~8.1.0",
-        "bugsnag/bugsnag": "^3.23.1",
-        "laminas/laminas-mvc": "^3.3",
-        "laminas/laminas-servicemanager": "^3.10",
-        "laminas/laminas-stdlib": "^3.7",
+        "php": "^8.3",
+        "bugsnag/bugsnag": "^v3.29",
+        "laminas/laminas-mvc": "^3.7",
+        "laminas/laminas-servicemanager": "^3.22",
+        "laminas/laminas-stdlib": "^3.19",
         "psr/container": "^1.0.0"
     },
     "autoload": {
