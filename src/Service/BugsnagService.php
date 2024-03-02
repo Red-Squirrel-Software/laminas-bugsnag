@@ -33,7 +33,7 @@ class BugsnagService
             $this->bugsnag->setNotifier([
                 'name'    =>    'LaminasBugsnag',
                 'version' =>    \LaminasBugsnag\Version::VERSION,
-                'url'     =>    'https://github.com/diablomedia/laminas-bugsnag'
+                'url'     =>    'https://github.com/Red-Squirrel-Software/laminas-bugsnag'
             ]);
             if ($this->options->getAppVersion()) {
                 $this->bugsnag->setAppVersion($this->options->getAppVersion());
